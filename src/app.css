@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Nunito-Sans";
+  src: url("./assets/Fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf")
+    format("truetype");
+}
+:root {
+  font-family: "Nunito-Sans";
+  background-attachment: fixed !important;
+  background: linear-gradient(135deg, #2c4fcd, #0e2272, #000);
+}
